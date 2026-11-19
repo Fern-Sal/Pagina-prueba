@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andes Frenos y Suspensión | Taller mecánico en Santiago</title>
+  <meta name="description" content="Taller especializado en suspensión, dirección y frenos para vehículos livianos. Amortiguadores, rótulas, ABS/ESP, frenos de disco y tambor, servofrenos.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- AVISO: sitio de práctica -->
+  <div class="aviso">Sitio ficticio creado solo para práctica. Los datos de contacto, precios y la empresa no son reales.</div>
+
+  <!-- ENCABEZADO -->
+  <header class="header">
+    <div class="contenedor header__interior">
+      <a href="#inicio" class="logo">Andes <span>Frenos y Suspensión</span></a>
+      <button class="menu-boton" id="menuBoton" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#precios">Precios</a>
+        <a href="#faq">Preguntas</a>
+        <a href="#contacto" class="boton boton--chico">Agendar hora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PORTADA -->
+    <section class="hero" id="inicio">
+      <div class="contenedor hero__interior">
+        <p class="etiqueta">Vehículos livianos · Santiago de Chile</p>
+        <h1>Frenos, suspensión y dirección en manos expertas</h1>
+        <p class="hero__texto">Diagnóstico con scanner y prueba de ruta, repuestos con garantía y presupuesto por escrito antes de tocar tu auto.</p>
+        <div class="hero__botones">
+          <a href="#contacto" class="boton">Agendar hora</a>
+          <a href="https://wa.me/56912345678?text=Hola%2C%20quiero%20cotizar%20una%20revisi%C3%B3n" class="boton boton--borde" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <ul class="hero__datos">
+          <li><strong>+12 años</strong> de experiencia</li>
+          <li><strong>6 meses</strong> de garantía en mano de obra</li>
+          <li><strong>Revisión gratis</strong> de frenos</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="seccion" id="servicios">
+      <div class="contenedor">
+        <h2>Nuestros servicios</h2>
+        <p class="seccion__intro">Nos especializamos en tres sistemas que definen la seguridad de tu auto.</p>
+
+        <div class="grilla">
+          <article class="tarjeta">
+            <h3>Frenos</h3>
+            <ul>
+              <li>Pastillas y discos (delanteros y traseros)</li>
+              <li>Frenos de tambor: balatas y cilindros</li>
+              <li>Servofreno (booster) y bomba de freno</li>
+              <li>Cambio y purga de líquido de frenos</li>
+              <li>Cañerías y flexibles</li>
+            </ul>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Suspensión</h3>
+            <ul>
+              <li>Amortiguadores y resortes</li>
+              <li>Brazos de control y bujes</li>
+              <li>Rótulas y terminales</li>
+              <li>Barra estabilizadora y sus gomas</li>
+              <li>Cazoletas y rodamientos de rueda</li>
+            </ul>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Dirección</h3>
+            <ul>
+              <li>Cremallera y caja de dirección</li>
+              <li>Bomba de dirección hidráulica y electroasistida</li>
+              <li>Terminales y axiales</li>
+              <li>Alineación y balanceo</li>
+              <li>Diagnóstico de vibraciones y ruidos</li>
+            </ul>
+          </article>
+
+          <article class="tarjeta tarjeta--destacada">
+            <h3>Electrónica: ABS y ESP</h3>
+            <ul>
+              <li>Lectura de fallas con scanner</li>
+              <li>Sensores de ruedas ABS</li>
+              <li>Módulos hidráulicos y de control</li>
+              <li>Sensores de ángulo de dirección y de giro (ESP)</li>
+              <li>Apagado de testigos tras la reparación</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÑALES DE ALERTA -->
+    <section class="seccion seccion--gris">
+      <div class="contenedor">
+        <h2>¿Tu auto te está avisando algo?</h2>
+        <div class="grilla grilla--3">
+          <div class="alerta"><h3>Chirrido al frenar</h3><p>Pastillas gastadas o discos con desgaste.</p></div>
+          <div class="alerta"><h3>Pedal blando o largo</h3><p>Aire en el circuito, fuga o problema en el servofreno.</p></div>
+          <div class="alerta"><h3>Golpeteo en baches</h3><p>Amortiguadores, rótulas o bujes vencidos.</p></div>
+          <div class="alerta"><h3>Volante que vibra o se desvía</h3><p>Desalineación, balanceo o terminales con juego.</p></div>
+          <div class="alerta"><h3>Testigo ABS o ESP encendido</h3><p>Sensor, módulo o cableado con falla.</p></div>
+          <div class="alerta"><h3>Auto que se hunde al frenar</h3><p>Amortiguadores sin capacidad de retención.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="seccion" id="proceso">
+      <div class="contenedor">
+        <h2>Cómo trabajamos</h2>
+        <ol class="pasos">
+          <li><strong>Recepción y diagnóstico.</strong> Inspección visual, scanner y prueba de ruta.</li>
+          <li><strong>Presupuesto por escrito.</strong> Detallamos repuestos y mano de obra. No hacemos nada sin tu autorización.</li>
+          <li><strong>Reparación.</strong> Repuestos de marcas reconocidas u originales, a elección tuya.</li>
+          <li><strong>Control final.</strong> Prueba de ruta, revisión de torque y entrega de los repuestos cambiados.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PRECIOS -->
+    <section class="seccion seccion--gris" id="precios">
+      <div class="contenedor">
+        <h2>Precios referenciales</h2>
+        <p class="seccion__intro">Valores de ejemplo en pesos chilenos, IVA incluido, solo mano de obra. Varían según marca y modelo.</p>
+        <div class="tabla-envoltorio">
+          <table class="tabla">
+            <thead>
+              <tr><th>Servicio</th><th>Desde (CLP)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Revisión de frenos y suspensión</td><td>Gratis</td></tr>
+              <tr><td>Cambio de pastillas (por eje)</td><td>$25.000</td></tr>
+              <tr><td>Cambio de discos (por eje)</td><td>$35.000</td></tr>
+              <tr><td>Cambio de balatas de tambor (por eje)</td><td>$30.000</td></tr>
+              <tr><td>Cambio de amortiguadores (por eje)</td><td>$45.000</td></tr>
+              <tr><td>Cambio de rótula o terminal (unidad)</td><td>$28.000</td></tr>
+              <tr><td>Cambio de brazo de control (unidad)</td><td>$40.000</td></tr>
+              <tr><td>Cambio de servofreno</td><td>$90.000</td></tr>
+              <tr><td>Diagnóstico ABS/ESP con scanner</td><td>$20.000</td></tr>
+              <tr><td>Alineación y balanceo</td><td>$30.000</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="nota">Medios de pago: efectivo, transferencia, Redcompra (débito y crédito) y Webpay.</p>
+      </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section class="seccion" id="faq">
+      <div class="contenedor contenedor--angosto">
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+          <summary>¿Cada cuánto debo revisar los frenos?</summary>
+          <p>Como referencia, una vez al año o cada 10.000 a 15.000 km. Si usas el auto en ciudad con mucho tráfico o en cuestas, conviene revisarlos antes.</p>
+        </details>
+
+        <details>
+          <summary>¿Cuándo se cambian los amortiguadores?</summary>
+          <p>Suelen durar entre 60.000 y 80.000 km, aunque depende mucho del estado de las calles y del uso. Si el auto rebota, se hunde al frenar o se oyen golpes, hay que revisarlos.</p>
+        </details>
+
+        <details>
+          <summary>¿Me ayudan a prepararme para la revisión técnica?</summary>
+          <p>Sí. Revisamos frenos, dirección y suspensión, que son puntos que se evalúan en la planta de revisión técnica, y corregimos lo necesario.</p>
+        </details>
+
+        <details>
+          <summary>¿Puedo llevar mis propios repuestos?</summary>
+          <p>Sí, pero en ese caso la garantía cubre solo la mano de obra, no el repuesto.</p>
+        </details>
+
+        <details>
+          <summary>¿Cuánto demora una reparación?</summary>
+          <p>Un cambio de pastillas o de amortiguadores se hace normalmente el mismo día. Trabajos de ABS/ESP o dirección pueden tomar más, y te avisamos con el presupuesto.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="seccion seccion--oscura" id="contacto">
+      <div class="contenedor contacto">
+        <div>
+          <h2>Agenda tu hora</h2>
+          <p>Completa el formulario y te contactamos para confirmar.</p>
+          <ul class="datos">
+            <li><strong>Dirección:</strong> Av. Ejemplo 1234, Maipú, Región Metropolitana</li>
+            <li><strong>Teléfono / WhatsApp:</strong> +56 9 1234 5678</li>
+            <li><strong>Correo:</strong> contacto@andesfrenos.example</li>
+            <li><strong>Horario:</strong> Lunes a viernes 9:00 a 18:30<br>Sábado 9:00 a 14:00</li>
+          </ul>
+        </div>
+
+        <form id="formulario" class="formulario" novalidate>
+          <label>Nombre
+            <input type="text" name="nombre" required>
+          </label>
+          <label>Teléfono
+            <input type="tel" name="telefono" placeholder="+56 9 ..." required>
+          </label>
+          <label>Marca y modelo del vehículo
+            <input type="text" name="vehiculo" placeholder="Ej: Chevrolet Sail 2018" required>
+          </label>
+          <label>Servicio
+            <select name="servicio" required>
+              <option value="">Selecciona...</option>
+              <option>Frenos</option>
+              <option>Suspensión</option>
+              <option>Dirección</option>
+              <option>ABS / ESP</option>
+              <option>Revisión general</option>
+            </select>
+          </label>
+          <label>Comentarios
+            <textarea name="comentarios" rows="3"></textarea>
+          </label>
+          <button type="submit" class="boton">Enviar solicitud</button>
+          <p class="mensaje" id="mensaje" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <p>© 2026 Andes Frenos y Suspensión SpA · RUT 76.000.000-0 (ficticio)</p>
+      <p>Sitio de práctica sin fines comerciales.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
